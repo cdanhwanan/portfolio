@@ -169,3 +169,11 @@ body {
 .dots li.active {
     width: 30px;
 }
+a {
+    color: #000000; /* Link color */
+    text-decoration: none; /* Removes underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline when hovered */
+}
